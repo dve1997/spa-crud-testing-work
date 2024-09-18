@@ -1,0 +1,44 @@
+.body {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(212, 212, 212);
+  box-shadow: 1px 1px 10px rgb(212, 212, 212);
+}
+
+.title {
+  font-size: 18px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.subtitle {
+  font-size: 14px;
+  margin: 5px 5px 5px 0;
+}
+
+.field {
+  width: 95%;
+  height: 20px;
+}
+
+.errorMessage {
+  margin-bottom: 10px;
+  color: red;
+  font-size: 12px;
+}
+
+.btn {
+  width: 8%;
+  padding: 0;
+  align-self: flex-end;
+}

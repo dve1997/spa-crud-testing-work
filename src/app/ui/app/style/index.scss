@@ -1,0 +1,23 @@
+@import 'node_modules/normalize-scss/sass/normalize/import-now';
+@import './global.scss';
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  background-color: rgb(212, 212, 212);
+  color: black;
+  font-family: var(--font-family-roboto);
+  font-weight: 300;
+}
+
+.conteiner {
+  max-width: 1240px;
+  min-height: 100%;
+  padding: 10px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr;
+  gap: 32px;
+  background-color: rgb(190, 190, 190);
+}

@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local('Roboto Regular'),
+    url('Roboto-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local('Roboto Italic'),
+    url('Roboto-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local('Roboto Bold'),
+    url('Roboto-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local('Roboto Bold Italic'),
+    url('Roboto-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local('Roboto Thin'),
+    url('Roboto-Thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local('Roboto Thin Italic'),
+    url('Roboto-ThinItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local('Roboto Light'),
+    url('Roboto-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local('Roboto Light Italic'),
+    url('Roboto-LightItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local('Roboto Medium'),
+    url('Roboto-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local('Roboto Medium Italic'),
+    url('Roboto-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local('Roboto Black'),
+    url('Roboto-Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local('Roboto Black Italic'),
+    url('Roboto-BlackItalic.woff') format('woff');
+}
+
+:root {
+  // Шрифты
+  --font-family-roboto: 'Roboto';
+}

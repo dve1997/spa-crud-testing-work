@@ -1,0 +1,35 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.field {
+  margin-bottom: 10px;
+}
+
+.field:focus {
+  box-shadow: 1px 1px 10px black;
+}
+
+.errorMessage {
+  margin-bottom: 10px;
+  color: red;
+  font-size: 12px;
+}
+
+.btn {
+  margin-bottom: 10px;
+}
