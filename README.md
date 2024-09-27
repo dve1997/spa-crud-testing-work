@@ -1,12 +1,10 @@
-Тестовое задание для Pryaniky.com
-
-React + Redux/Toolkit.
-
-Используется связка:
-
-* configureStore + createEntityAdapter + createAsyncThunk + createSlice
-* npm formik + npm Yop, создание форм
-* дополнительно еще используется ряд пакетов npm
+В данном тестовом задание использовался следующий стек технологий:
+* React + React Router Dom + Redux Toolkit + Vite
+* ESLint + Prettier
+* TypeScript
+* Для удобства запросов на сервер используется axios
+* Для работы с формами используется formik, yup
+* Для назначения id используется uuid
 
 Структура проекта:
 app - раздел, относящийся ко всему приложению
